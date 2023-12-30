@@ -3,6 +3,8 @@ import plotly.express as px
 import streamlit as st
         
 car_data = pd.read_csv('vehicles_us.csv') # read the data
+st.title('Vehicle Data Explorer')
+
 
 hist_button = st.checkbox('Build Histogram')
 
